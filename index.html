@@ -11,22 +11,38 @@
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #6f4685;
+            background-color: #ffffff;
         }
         header {
             display: flex;
-            justify-content: flex-end; /* Align items to the right */
+            justify-content: space-between; /* Space between title and image */
             align-items: center;
-            background-color: #333;
+            background-color: #6f4685;
             color: #fff;
             padding: 20px;
-            text-align: right;
+        } 
+        .header-text h1 {
+            font-size: 2em; /* Slightly bigger title */
+            margin: 0;
         }
-                /* Profile Picture Style */
+        .header-text p {
+            margin: 5px 0 0;
+            font-size: 1.1em;
+            color: #ddd;
+        }
+        /* Profile Picture Style */
         .profile-pic {
             width: 200px; /* Smaller width for the image */
             height: auto; /* Maintain aspect ratio */
-            margin-left: 15px; /* Space between image and text */
+        }
+        /* Content Styling */
+        section {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         
         section {
