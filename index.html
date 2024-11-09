@@ -1,113 +1,152 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wenjun Xiong</title>
-    <style>
-        /* Basic styling for the template */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 20px;
-            text-align: center;
-        }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wenjun Xiong - Personal Website</title>
+    <style>
+        /* Basic styling for the template */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f0f2f5;
+        }
 
-                /* Profile Picture Style */
-        .profile-pic {
-            width: 300px; /* Adjust width as desired */
-            height: auto; /* Maintains the aspect ratio */
-            margin-top: 10px;
-        }
-        
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            padding: 8px 0;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            font-size: 0.9em;
-            color: #666;
-        }
-    </style>
+        header {
+            background-color: #0077b6;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Profile Picture Style */
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #fff;
+            margin-top: 15px;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 10px 0 5px;
+            font-weight: bold;
+        }
+
+        p {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 30px;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 1.8em;
+            color: #0077b6;
+            border-bottom: 2px solid #0077b6;
+            padding-bottom: 5px;
+            margin-bottom: 20px;
+        }
+
+        p, ul li {
+            line-height: 1.6;
+            font-size: 1em;
+            color: #555;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        ul li {
+            padding: 8px 0;
+            position: relative;
+            padding-left: 25px;
+        }
+
+        ul li::before {
+            content: '•';
+            color: #0077b6;
+            position: absolute;
+            left: 0;
+            top: 8px;
+            font-size: 1.5em;
+        }
+
+        a {
+            color: #0077b6;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #666;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
 </head>
 <body>
 
+<header>
+    <h1>Wenjun Xiong</h1>
+    <p>Personal Website</p>
+    <!-- Profile Picture -->
+    <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+</header>
 
-    <header>
-        <h1>Wenjun Xiong</h1>
-        <p>Wenjun Xiong</p>
-        <!-- Add Profile Picture -->
-        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-    </header>
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am currently a cybersecurity manager at Alstom and have over seven years’ experience with strong publication records in cybersecurity. I specialize in assessing and enhancing the security level of IT and OT systems and am passionate about solving real-world problems with cutting-edge technologies.</p>
+</section>
 
-    <section id="about">
-        <h2>About Me</h2>
-<p>I am currently a cybersecurity manager at Alstom and have over seven years’ experience with strong publication records in cybersecurity. I am expertise in assessing and enhancing the security level of IT and OT systems, and am pssionate about solving real-world problems with cutting-edge technologies.
- </section>
+<section id="certifications-and-skills">
+    <h2>Certifications and Skills</h2>
+    <ul>
+        <li>Certification: AWS Certified Security – Specialty</li>
+        <li>Certification: ISA/IEC 62443 Cybersecurity Fundamentals Specialist</li>
+        <li>Skills: Penetration testing, software development, and testing</li>
+        <li>Frameworks: MITRE ATT&CK, NIST framework, GDPR, ISA/IEC 62443, ISO/IEC 27000 series</li>
+    </ul>
+</section>
 
-    <section id="certifications and skills">
-        <h2>Certifications and Skills</h2>
-        <ul>
-            <li>Certification: AWS Certified Security – Specialty</li>
-            <li>Certification: ISA/IEC 62443 Cybersecurity Fundamentals Specialist</li>
-            <li>Penetration testing, software development and testing</li>
-            <li>International standards and frameworks, such as the MITRE ATT&CK, NIST framework, GDPR, ISA/IEC 62443 and ISO/IEC 27000 series</li>
-        </ul>
-    </section>
+<section id="experience">
+    <h2>Experience</h2>
+    <ul>
+        <li><strong>Alstom:</strong> <a href="https://github.com/username/project1" target="_blank">GitHub Repository</a> - Lead cybersecurity initiatives for a Norwegian rolling stock project involving up to 200 trains, ensuring compliance with ISA/IEC 62443 standards.</li>
+        <li><strong>KPMG Sweden:</strong> <a href="https://github.com/username/project2" target="_blank">GitHub Repository</a> - Conducted a cyber maturity assessment for a Swedish manufacturing company, ensuring compliance with ISO/IEC 27001.</li>
+    </ul>
+</section>
 
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li><strong>Alstom:</strong> <a href="https://github.com/username/project1" target="_blank">GitHub Repository</a> - Lead cybersecurity initiatives for a Norwegian rolling stock project involving up to 200 trains, ensuring compliance
-with ISA/IEC 62443 standards.</li>
-            <li><strong>KPMG Sweden:</strong> <a href="https://github.com/username/project2" target="_blank">GitHub Repository</a> - Conducted a cyber maturity assessment for a Swedish manufacturing company, ensuring compliance with ISO/IEC
-27001.</li>
-        </ul>
-    </section>
+<section id="projects">
+    <h2>Projects</h2>
+    <ul>
+        <li><strong>Cybersecurity project management of a Norwegian rolling stock project:</strong> <a href="https://github.com/username/project1" target="_blank">GitHub Repository</a> - A brief description of the project and technologies used.</li>
+        <li><strong>Identity and access management for a Swedish fintech company:</strong> <a href="https://github.com/username/project2" target="_blank">GitHub Repository</a> - A brief description of another project.</li>
+    </ul>
+</section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><strong>Cybersecurity project management of a Norwegian rolling stock project :</strong> <a href="https://github.com/username/project1" target="_blank">GitHub Repository</a> - A brief description of what the project does and what technologies it uses.</li>
-            <li><strong>Identity and access management for a Swedish fintech company:</strong> <a href="https://github.com/username/project2" target="_blank">GitHub Repository</a> - Another brief description of a different project.</li>
-        </ul>
-    </section>
-
-    
-
-    <footer>
-        <p>&copy; 2024 Wenjun Xiong. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2024 Wenjun Xiong. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
