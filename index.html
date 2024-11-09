@@ -5,35 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wenjun Xiong</title>
     <style>
-        /* Basic styling for the template */
+
+        /* Basic styling */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             color: #333;
-            background-color: #ffffff;
+            background-color: #f4f4f9;
         }
+        /* Centered and aligned header with limited width */
         header {
             display: flex;
-            justify-content: space-between; /* Space between title and image */
             align-items: center;
-            background-color: #DAB1DA;
+            background-color: #d4d4d4;
             color: #fff;
             padding: 20px;
-        } 
+            max-width: 800px; /* Match the section width */
+            margin: 0 auto; /* Center the header */
+            box-sizing: border-box;
+        }
+        /* Profile Picture Style */
+        .profile-pic {
+            width: 100px; /* Adjust width as needed */
+            height: auto;
+            margin-right: 20px; /* Space between image and text */
+        }
+        /* Title and Subtitle Container */
+        .header-text {
+            display: flex;
+            flex-direction: column; /* Stack title and subtitle vertically */
+        }
         .header-text h1 {
-            font-size: 2em; /* Slightly bigger title */
+            font-size: 2em;
             margin: 0;
+            text-align: left;
         }
         .header-text p {
             margin: 5px 0 0;
             font-size: 1.1em;
             color: #ddd;
-        }
-        /* Profile Picture Style */
-        .profile-pic {
-            width: 200px; /* Smaller width for the image */
-            height: auto; /* Maintain aspect ratio */
+            text-align: left;
         }
         /* Content Styling */
         section {
@@ -44,50 +56,25 @@
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        
-        section {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        }
-        h1, h2 {
-            color: #333;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        ul li {
-            padding: 8px 0;
-        }
-        a {
-            color: #3498db;
-            text-decoration: none;
-        }
-        footer {
-            text-align: center;
-            padding: 10px;
-            font-size: 0.9em;
-            color: #666;
-        }
     </style>
 </head>
 <body>
 
     <header>
-        <h1>Wenjun Xiong</h1>
-        <!-- Add Profile Picture -->
+        <!-- Profile Picture on the Left -->
         <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+        
+        <!-- Title and Subtitle on the Right -->
+        <div class="header-text">
+            <h1>Wenjun Xiong</h1>
+            <p>About Me</p>
+        </div>
     </header>
+
     <section id="about">
         <h2>About Me</h2>
 <p>I am currently a cybersecurity manager at Alstom and have over seven years’ experience with strong publication records in cybersecurity. I am expertise in assessing and enhancing the security level of IT and OT systems, and am pssionate about solving real-world problems with cutting-edge technologies.
+
  </section>
     <section id="certifications and skills">
         <h2>Certifications and Skills</h2>
