@@ -29,17 +29,17 @@
         /* Title and Subtitle Container */
         .header-text {
             display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            text-align: left;
+            flex-direction: column; /* Stack title and subtitle vertically */
+            align-items: flex-start; /* Align title and subtitle to the left */
+            text-align: left; /* Text aligned to the left */
         }
         .header-text h1 {
             font-size: 2em;
             margin: 0 0 10px 0; /* Adjust this value to increase spacing */
         }
         .header-text p {
-            margin: 0;
-            font-size: 1.1em;
+            margin: 5px 0 0;
+            font-size: 0.8em;
             color: #ddd;
         }
         /* Profile Picture Style */
@@ -62,14 +62,15 @@
 <body>
 
     <header>
-        <!-- Profile Picture on the Left -->
-        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
-        
-        <!-- Title and Subtitle on the Right -->
+
+        <!-- Title and Subtitle on the Left -->
         <div class="header-text">
             <h1>Wenjun Xiong</h1>
             <p>I am currently a cybersecurity manager at Alstom and have over seven years’ experience with strong publication records in cybersecurity. I am expertise in assessing and enhancing the security level of IT and OT systems, and am pssionate about solving real-world problems with cutting-edge technologies.</p>
         </div>
+
+        <!-- Profile Picture on the Right -->
+        <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
     </header>
 
 
