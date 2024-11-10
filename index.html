@@ -15,14 +15,14 @@
             background-color: #f4f4f9;
         }
 
-        /* Added a container with consistent width and centering */
-        .container { /* New container for width consistency */
-            max-width: 800px; /* Set max-width for consistent alignment */
+        /* Container with consistent width and centering */
+        .container {
+            max-width: 800px; /* Set max-width for alignment */
             margin: 0 auto; /* Center-align the container */
             padding: 0 20px; /* Optional padding for mobile responsiveness */
         }
         
-        /* Centered and aligned header with limited width */
+        /* Header styling */
         header {
             display: flex;
             justify-content: space-between;
@@ -31,7 +31,10 @@
             color: #fff;
             padding: 20px;
             box-sizing: border-box;
+            border-radius: 8px; /* Optional: Rounded edges to match section style */
+            margin-bottom: 20px; /* Space between header and section */
         }
+        
         /* Title and Subtitle Container */
         .header-text {
             display: flex;
@@ -39,25 +42,27 @@
             align-items: flex-start; /* Align title and subtitle to the left */
             text-align: left; /* Text aligned to the left */
         }
+        
         .header-text h1 {
             font-size: 2em;
             margin: 0 0 10px 0; /* Adjust this value to increase spacing */
         }
+        
         .header-text p {
             margin: 5px 0 0;
             font-size: 1em;
             color: #ddd;
         }
+        
         /* Profile Picture Style */
         .profile-pic {
             width: 100px;
             height: auto;
             margin-left: 20px;
         }
+        
         /* Content Styling */
         section {
-            max-width: 800px;
-            margin: 20px auto;
             padding: 20px;
             background: #fff;
             border-radius: 8px;
@@ -66,6 +71,10 @@
     </style>
 </head>
 <body>
+
+    <!-- Container for consistent alignment -->
+    <div class="container">
+        
 
     <header>
 
