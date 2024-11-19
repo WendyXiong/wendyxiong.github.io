@@ -21,7 +21,7 @@ repository               : "WendyXiong/wenjx.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "https://WendyXiong.github.io/images/22633.jpg"
   name             : "Wenjun Xiong"
   pronouns         : # example: "she/her"  
   bio              : "Cyber Security Manager | Ph.D. in Electrical Engineering"
