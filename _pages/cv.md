@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "CV"
+title: ""
 permalink: /cv/
 author_profile: true
 redirect_from:
@@ -14,7 +14,7 @@ Education
 * KTH Royal Institute of Technology, Ph.D. Electrical Engineering, 09/2017 - 09/2021
 * Wuhan University, M.S. Telecommunications Engineering, 09/2014 - 06/2017
 
-Work experience
+Experience
 ======
 * Alstom: Cybersecurity Project Manager, 09/2022 - Ongoing
   * Lead cybersecurity initiatives for a Norwegian rolling stock project involving up to 200 trains, ensuring compliance with ISA/IEC 62443 standards
@@ -54,3 +54,9 @@ Awards
   * Postgraduate Academic Scholarship, 09/2014 - 06/2017
   * China National Scholarship (Top 1%), 11/2012
   * Government Scholarship of Hubei Province,12/2011
+
+Languages
+======
+  * Chinese (Mandarin): Native or bilingual proficiency
+  * English: Full professional proficiency
+  * Swedish: Limited working proficiency
