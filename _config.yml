@@ -12,7 +12,7 @@ title                    : "Wenjun Xiong"
 title_separator          : "-"
 name                     : &name "Wenjun Xiong"
 description              : &description "Cyber Security Manager, Ph.D. in Electrical Engineering"
-url                      : https://wenjx.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
+url                      : https://wendyxiong.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "WendyXiong/wendyxiong.github.io"
 
@@ -44,7 +44,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "https://github.com/WendyXiong"
+  github           : "WendyXiong"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -58,7 +58,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/wenjx/"
+  linkedin         : "wenjx"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
